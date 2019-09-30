@@ -6,6 +6,7 @@ import ProjectDetails from "./projects/ProjectDetails";
 import SignIn from "./auth/SignIn";
 import SignUp from "./auth/SignUp";
 import CreateProject from "./projects/CreateProject";
+
 function App() {
   return (
     <BrowserRouter>

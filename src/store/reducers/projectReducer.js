@@ -7,7 +7,13 @@ const initialState = {
 };
 
 const authReducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case "ADD_PROJECT":
+      console.log("created project", action.project);
+      return state;
+    default:
+      return state;
+  }
 };
 
 export default authReducer;
